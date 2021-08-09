@@ -17,9 +17,9 @@ const HeroSection = () => {
                 <VideoBackground autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBackground>
             <HeroContent>
-                <HeroH1>David Huerta</HeroH1>
+                <HeroH1>David Huerta Beltran</HeroH1>
                 <HeroDescription>
-                    I'm a Junior web developer with experience in HTML, CSS, JavaScript (React), PHP (Laravel) and MySQL.
+                    I'm a Junior Web Developer with experience in HTML, CSS, JavaScript (React), PHP (Laravel) and MySQL.
                 </HeroDescription>
                 <HeroButton>
                     <Button to="portfolio" onMouseEnter={onHover} onMouseLeave={onHover} smooth={true}

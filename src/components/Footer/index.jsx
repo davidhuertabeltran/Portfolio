@@ -35,7 +35,7 @@ const Footer = () => {
                                 </SocialIconLink>
                             </SocialIcons>
                         </SocialIconsContainer>
-                        <FooterText>Made with ❤️ by David Huerta <br /> {new Date().getFullYear()}</FooterText>
+                        <FooterText>Made with ❤️ by David Huerta Beltran <br /> {new Date().getFullYear()}</FooterText>
                     </SocialMediaWrapper>
                 </SocialMedia>
             </FooterWrapper>
