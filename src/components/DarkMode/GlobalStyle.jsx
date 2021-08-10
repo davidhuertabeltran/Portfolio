@@ -18,12 +18,14 @@ export const GlobalStyle = createGlobalStyle`
     body { 
         background: ${({theme}) => theme.body};
         color: ${({theme}) => theme.text};
+        transition: all .5s linear;
     }
 
     .portfolio-card {
         // background: ${({theme}) => theme.body};
         color: ${({theme}) => theme.textInverse};
         background: ${({theme}) => theme.bodyInverse};
+        transition: all .5s linear;
     }
 `;
 
