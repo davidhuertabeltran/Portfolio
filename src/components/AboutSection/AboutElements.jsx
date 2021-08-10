@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
-    color: white;
-    background: ${({ lightBackground }) => (lightBackground ? 'white' : 'rgb(19, 28, 35)')};
+    // color: white;
+    // background: ${({ lightBackground }) => (lightBackground ? 'white' : 'rgb(19, 28, 35)')};
     
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -52,7 +52,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-    color: white;
+    // color: white;
     font-size: 1.5rem;
     line-height: 16px;
     font-weight: bold;
@@ -62,12 +62,12 @@ export const TopLine = styled.p`
 `;
 
 export const Heading = styled.h1`
-    color: white;
+    // color: white;
     margin-bottom: 24px;
     gont-size: 48px;
     line-height: 1.1;
     font-weight: bold;
-    color: ${({ lightText }) => (lightText ? 'white' : 'rgb(19, 28, 35)')};
+    // color: ${({ lightText }) => (lightText ? 'white' : 'rgb(19, 28, 35)')};
 
     @media screen and (max-width: 480px) {
         font-size: 32px;
@@ -80,7 +80,7 @@ export const Text = styled.p`
     line-height: 1.6em;
     font-size: 18px;
     // line-height: 24px;
-    color: ${({ darkText }) => (darkText ? 'rgb(19, 28, 35)' : 'white')};
+    // color: ${({ darkText }) => (darkText ? 'rgb(19, 28, 35)' : 'white')};
 `;
 
 export const ButtonWrapper = styled.div`
