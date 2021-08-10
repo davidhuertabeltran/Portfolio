@@ -9,7 +9,7 @@ const Portfolio = () => {
             <PortfolioWrapper>
                 {
                     Data.map((item, i) => {
-                        return <PortfolioCard to={item.to} key={i} target="_blank">
+                        return <PortfolioCard to={item.to} key={i} target="_blank" className="portfolio-card">
                             <PortfolioImage src={item.image} />
                             <PortfolioH3>{item.name}</PortfolioH3>
                             <PortfolioP>{item.desc}</PortfolioP>

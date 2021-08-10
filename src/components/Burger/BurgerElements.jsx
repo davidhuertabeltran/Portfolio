@@ -63,3 +63,11 @@ export const SidebarLink = styled(LinkScroll)`
         transition: 0.2s ease-in-out;
     }
 `;
+
+export const DarkIcon = styled.div`
+
+    display: block;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #fff;
+`;

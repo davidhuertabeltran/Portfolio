@@ -87,3 +87,13 @@ export const NavLinks = styled(LinkScroll)`
     //     border-bottom: 3px solid #01bf71;
     // }
 `;
+
+export const DarkIcon = styled.div`
+
+    display: block;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 7px;
+
+`;

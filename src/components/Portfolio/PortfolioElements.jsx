@@ -6,15 +6,12 @@ export const PortfolioContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgb(19, 28, 35);
     padding: 80px 0;
 `;
 
 export const PortfolioH2 = styled.h2`
     font-size: 2.5rem;
-    color: #fff;
     margin-bottom: 64px;
-
     @media screen and (max-width: 480px) {
         font-size: 2rem;
     }
@@ -35,7 +32,7 @@ export const PortfolioWrapper = styled.div`
 `;
 
 export const PortfolioCard = styled(Link)`
-    background: white;
+    // background: ${({ lightBackground }) => (lightBackground ? 'white' : 'rgb(19, 28, 35)')};
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -47,10 +44,10 @@ export const PortfolioCard = styled(Link)`
     transition: all 0.2s ease-in-out;
     margin: 10px;
     text-decoration: none;
-    color: rgb(19, 28, 35);
+    // color: ${({ darkText }) => (darkText ? 'rgb(19, 28, 35)' : 'white')};
     &:hover {
         transform: scale(1.02);
-        transition: all 0.2s ease-in-outl
+        transition: all 0.2s ease-in-out;
         cursor:pointer;
     }
 

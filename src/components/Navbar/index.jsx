@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
-import { Nav, NavContainer, NavLogo, MobileIcon, NavMenu, NavItems, NavLinks } from './NavbarElements'
+import { Nav, NavContainer, NavLogo, MobileIcon, NavMenu, NavItems, NavLinks, DarkIcon } from './NavbarElements'
+import { ToggleTheme } from '../DarkMode/Toggle';
 
-const Navbar = ({ toggle }) => {
+const Navbar = ({ toggle, theme, toggleTheme }) => {
 
     const [scrollNav, setScrollNav] = useState(false);
 
@@ -44,6 +45,13 @@ const Navbar = ({ toggle }) => {
                             </NavItems>
                             <NavItems>
                                 <NavLinks to="contact" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Contact</NavLinks>
+                            </NavItems>
+                            <NavItems>
+                                <NavLinks>
+                                    <DarkIcon onClick={toggleTheme}>
+                                        <ToggleTheme theme={theme} toggleTheme={toggleTheme}/>
+                                    </DarkIcon>
+                                </NavLinks>
                             </NavItems>
                         </NavMenu>
                     </NavContainer>
