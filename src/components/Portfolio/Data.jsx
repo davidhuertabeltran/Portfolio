@@ -14,7 +14,7 @@ const Data = [
     {
         name: "Real State Selector",
         desc: "HTML, CSS & JavaScript website",
-        to: "//github.com/davidhuertabeltran/mock-interview-klikem",
+        to: "//github.com/davidhuertabeltran/Real-State-Selector",
         image: require('../../images/houses.jpg').default
     },
     {
