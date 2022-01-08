@@ -32,7 +32,6 @@ export const PortfolioWrapper = styled.div`
 `;
 
 export const PortfolioCard = styled(Link)`
-    // background: ${({ lightBackground }) => (lightBackground ? 'white' : 'rgb(19, 28, 35)')};
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -44,7 +43,6 @@ export const PortfolioCard = styled(Link)`
     transition: all 0.2s ease-in-out;
     margin: 10px;
     text-decoration: none;
-    // color: ${({ darkText }) => (darkText ? 'rgb(19, 28, 35)' : 'white')};
     &:hover {
         transform: scale(1.02);
         transition: all 0.2s ease-in-out;

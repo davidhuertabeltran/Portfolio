@@ -2,7 +2,7 @@ const Data = [
     {
         name: "DAS Travel App",
         desc: "React.js & Laravel application",
-        to: "//das-travel-app.codeboot.cz",
+        to: "//dastravelapp.eu",
         image: require('../../images/das-travel.jpg').default
     },
     {
