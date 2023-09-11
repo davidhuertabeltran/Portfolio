@@ -2,7 +2,7 @@ const Data = [
     {
         name: "DAS Travel App",
         desc: "React.js & Laravel application",
-        to: "//dastravelapp.eu",
+        to: "//github.com/Hourja/sad-final-project",
         image: require('../../images/das-travel.jpg').default
     },
     {

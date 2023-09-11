@@ -19,7 +19,7 @@ const HeroSection = () => {
             <HeroContent>
                 <HeroH1>David Huerta Beltran</HeroH1>
                 <HeroDescription>
-                    I'm a Junior Web Developer with experience in HTML, CSS, JavaScript (React), PHP (Laravel) and MySQL.
+                Frontend developer working with projects written in React and Angular (with TypeScript). Additional experience in PHP, Laravel and WordPress.
                 </HeroDescription>
                 <HeroButton>
                     <Button to="portfolio" onMouseEnter={onHover} onMouseLeave={onHover} smooth={true}
